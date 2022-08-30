@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Allura&family=Caveat&family=Dancing+Script&family=Gloria+Hallelujah&family=Inspiration&family=Kaushan+Script&family=Permanent+Marker&family=Playball&family=Poppins:wght@300&family=Roboto:ital,wght@1,300&display=swap');
+
+body{
+    width: 100%;
+    height:80vh;
+    margin: 0;
+    background-image: url("/Car Repair/car-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    font-family: 'Nanum Gothic', sans-serif;
+}
+header{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+.navigation{
+    display: flex;
+    color:white;
+    margin-left: 150px;
+}
+.navigation img{
+    width: 60px;
+    height: 60px;
+}
+.navigation h1 {
+    margin: 7px;
+    padding: 0;
+     color: white;
+     font-size: 30px;
+     font-family: 'Poppins', sans-serif;
+}
+
+.nav-bar li{
+    display: inline-block;
+    position: relative;
+    margin-right: 30px;
+    right: 200px;
+    color: white;
+}
+.btn{
+    padding: 10px;
+    background-color: #03cffc;
+    color: #03fc88;
+    font-weight: bold;
+}
+.nav-bar li:hover{
+    color:aqua;
+}
+.btn:hover{
+    background-color: rgb(54, 135, 153);
+    box-shadow: 5px gray;
+}
+.section-1{
+    height: 45vh;
+    margin-top: 25%;
+    margin-left: 25%;
+}
+.section-1 .btn-1{
+    background-color:  #03cffc;
+    color: #93f424;
+    font-weight: 500;
+    padding: 10px;
+    font-size: 20px;
+}
+.section-1 h1{
+    color: #03cffc;
+    font-size: 40px;
+
+}
+.section-1 p{
+    color: white;
+    font-size: 20px;
+}
+.footer{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    
+}
+.footer h3{
+    color: aqua;
+}
+.footer p{
+    margin-top: 0px;
+    color: white;
+    padding: 0px;
+}
+@media screen and (max-width:700px){
+    body{
+        width: 100%;
+    }
+    .navigation .nav-bar{
+        flex-direction: column;
+    }
+    .section-1{
+        justify-content: center;
+        align-content: center;
+    }
+    .footer{
+        height: 40vh;
+        flex-direction: column;
+        background-color: black;
+        text-align: center;
+    }
+}
+/* @media screen and (max-width:1000px){
+    .navigation .nav-bar{
+        flex-direction: column;
+    }
+} */
